@@ -1,0 +1,50 @@
+#left_container{
+    background-color: #5CB6E7;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}
+#right_container{
+    position: relative; 
+    left:50%;
+    width:50%;
+    text-align: center;
+    font-weight:bold;
+   /* background-color:red; */
+}
+#all_right{
+	padding:50px 70px 15px 70px;
+	background-image: url("../img/bg_dot.jpg");
+}
+#content{
+    text-align: left;
+}
+#hover:hover{
+    opacity: 0.7;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+	text-align: center;
+}
+#traffic td{
+    border: 1px solid #bbbbbb;
+	padding: 15px;
+}
+#traffic th{
+    background-color: #5CB6E7;
+    border: 1px solid #bbbbbb;
+    padding: 15px;
+}
+#copyright{
+    text-align: left;
+	padding: 20px 80px; 
+}
+body{
+    margin: 0px;
+	padding: 0px;
+}
+.mark{
+    padding:20px 0px; 
+}
