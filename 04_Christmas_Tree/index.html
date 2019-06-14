@@ -12,7 +12,7 @@
         var cc = prompt("請輸入行數", "")
         var star = "";
         for (var i = 1; i <= cc; i++) {
-            for (var z = cc; z >= i; z--) {
+            for (var z = cc; z > i; z--) {
                 star = star + "&nbsp" + "&nbsp" + "&nbsp" + "&nbsp";
             }
             for (var j = 1; j <= (i * 2 - 1); j++) {
